@@ -1,13 +1,19 @@
 import SideNav from '../../components/SideNav';
-import styles from '../../styles/Appointments.module.css';
+import SidebarLayout from '../../layouts/SidebarLayout';
+import SiteLayout from '../../layouts/SiteLayout';
 
-const appointments = () => {
+const Appointments = () => {
 	return (
-		<div className={styles.main}>
-			<SideNav />
-			<p>Yes it is</p>
+		<div>
+			<p>Home</p>
 		</div>
 	);
 };
 
-export default appointments;
+Appointments.getLayout = (page) => (
+	<SiteLayout>
+		<SidebarLayout>{page}</SidebarLayout>
+	</SiteLayout>
+);
+
+export default Appointments;

@@ -19,6 +19,14 @@ module.exports = {
 				400: '#304473',
 				500: '#304473',
 			},
+			orange: {
+				50: '#FFA53B',
+				100: '#FFA53B',
+				200: '#FFA53B',
+				300: '#FFA53B',
+				400: '#FFA53B',
+				500: '#FFA53B',
+			},
 		},
 		boxShadow: {
 			sm: '0 1px 2px 0 rgba(0, 0, 0, 0.05)',
@@ -32,6 +40,7 @@ module.exports = {
 			none: 'none',
 			sideNav: '2px 0px 4px rgba(0, 0, 0, 0.16)',
 			sideBtn: 'inset 0px 6px 10px rgba(0, 0, 0, 0.16);',
+			ctaBtn: '0px 4px 3px rgba(0, 0, 0, 0.08)',
 		},
 		extend: {},
 	},
