@@ -1,6 +1,5 @@
-import SideNav from '../../components/SideNav';
-import SidebarLayout from '../../layouts/SidebarLayout';
-import SiteLayout from '../../layouts/SiteLayout';
+import SidebarLayout from '../../components/layouts/SidebarLayout';
+import SiteLayout from '../../components/layouts/SiteLayout';
 
 const Appointments = () => {
 	return (

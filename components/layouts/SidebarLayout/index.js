@@ -1,4 +1,4 @@
-import SideNav from '../../components/SideNav';
+import SideNav from '../../SideNav';
 import styles from './SidebarLayout.module.css';
 
 const SidebarLayout = ({ children }) => {
