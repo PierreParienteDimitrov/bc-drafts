@@ -6,8 +6,8 @@ const SideNav = () => {
 	const router = useRouter();
 
 	return (
-		<div className='flex flex-col space-y-80 bg-gray-200 relative h-full min-h-screen shadow-sideNav z-10 px-2 py-4'>
-			<ul>
+		<div className='fixed w-60 top-16 flex flex-col space-y-80 bg-gray-200 h-full shadow-sideNav z-10 px-2 py-4'>
+			<ul className='mb-10'>
 				{appointmentsNav.map((el, index) => {
 					return (
 						<li
@@ -19,7 +19,15 @@ const SideNav = () => {
 							}
 						>
 							<Link href={`/appointments/${el.href}`}>
-								<a className='px-4 py-2'>{el.title}</a>
+								<a
+									className={
+										router.pathname == `/appointments/${el.href}`
+											? 'px-4 py-2 text-white'
+											: 'px-4 py-2'
+									}
+								>
+									{el.title}
+								</a>
 							</Link>
 						</li>
 					);
