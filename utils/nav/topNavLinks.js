@@ -1,6 +1,6 @@
 export const topNavLinks = [
 	{
-		href: '/appointments',
+		href: '/appointments/search',
 		title: 'Appointments',
 	},
 	{

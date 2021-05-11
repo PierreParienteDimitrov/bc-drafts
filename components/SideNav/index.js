@@ -6,7 +6,7 @@ const SideNav = () => {
 	const router = useRouter();
 
 	return (
-		<div className='fixed w-60 top-16 flex flex-col space-y-80 bg-gray-200 h-full shadow-sideNav z-10 px-2 py-4'>
+		<div className='fixed w-60 left-0 top-16 flex flex-col space-y-80 bg-gray-200 h-full shadow-sideNav z-10 px-2 py-4'>
 			<ul className='mb-10'>
 				{appointmentsNav.map((el, index) => {
 					return (

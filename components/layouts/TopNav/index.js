@@ -6,7 +6,7 @@ const TopNav = () => {
 	const router = useRouter();
 
 	return (
-		<div className='fixed top-0 left-0 w-full h-16 px-8 flex items-center bg-white shadow-inner z-200'>
+		<div className='fixed top-0 left-0 w-full h-16 px-8 flex items-center bg-white shadow-topNav z-200'>
 			<ul className='flex'>
 				{topNavLinks.map((el, index) => {
 					return (
