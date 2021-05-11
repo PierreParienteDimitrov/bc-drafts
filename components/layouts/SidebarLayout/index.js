@@ -5,7 +5,7 @@ const SidebarLayout = ({ children }) => {
 	return (
 		<div className={styles.main}>
 			<SideNav />
-			<div>{children}</div>
+			<div className='relative top-16 left-60'>{children}</div>
 		</div>
 	);
 };

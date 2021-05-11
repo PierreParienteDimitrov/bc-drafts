@@ -2,7 +2,22 @@ module.exports = {
 	purge: ['./pages/**/*.{js,ts,jsx,tsx}', './components/**/*.{js,ts,jsx,tsx}'],
 	darkMode: false, // or 'media' or 'class'
 	theme: {
+		zIndex: {
+			0: 0,
+			10: 10,
+			20: 20,
+			30: 30,
+			40: 40,
+			50: 50,
+			25: 25,
+			50: 50,
+			75: 75,
+			100: 100,
+			200: 200,
+			auto: 'auto',
+		},
 		colors: {
+			white: '#FFFFFF',
 			gray: {
 				50: '#E4E4E5',
 				100: '#E4E4E5',
