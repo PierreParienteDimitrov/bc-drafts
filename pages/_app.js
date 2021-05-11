@@ -1,12 +1,10 @@
-import PageLayout from '../layouts/pageLayout';
+import SiteLayout from '../layouts/SiteLayout';
 import '../styles/globals.css';
 
 function MyApp({ Component, pageProps }) {
-	return (
-		<PageLayout>
-			<Component {...pageProps} />
-		</PageLayout>
-	);
+	const getLayout =
+		Component.getLayout || ((page) => <SiteLayout children={page} />);
+	return getLayout(<Component {...pageProps} />);
 }
 
 export default MyApp;

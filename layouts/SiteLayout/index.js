@@ -1,7 +1,7 @@
 import Head from 'next/head';
 import TopNav from '../TopNav';
 
-const PageLayout = ({ children }) => {
+const SiteLayout = ({ children }) => {
 	return (
 		<div>
 			<Head>
@@ -14,4 +14,4 @@ const PageLayout = ({ children }) => {
 	);
 };
 
-export default PageLayout;
+export default SiteLayout;

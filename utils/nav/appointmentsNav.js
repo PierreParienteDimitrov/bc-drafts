@@ -1,30 +1,30 @@
 export const appointmentsNav = [
 	{
-		href: 'appointments/search',
+		href: 'search',
 		title: 'Search',
 	},
 	{
-		href: 'appointments/dashboards',
+		href: 'dashboards',
 		title: 'Dashboards',
 	},
 	{
-		href: 'appointments/imports',
+		href: 'imports',
 		title: 'Imports',
 	},
 	{
-		href: 'appointments/empties',
+		href: 'empties',
 		title: 'Empties',
 	},
 	{
-		href: 'appointments/exports',
+		href: 'exports',
 		title: 'Exports',
 	},
 	{
-		href: 'appointments/all-appointments',
+		href: 'all-appointments',
 		title: 'All Appointments',
 	},
 	{
-		href: 'appointments/all-containers',
+		href: 'all-containers',
 		title: 'All Containers',
 	},
 ];
