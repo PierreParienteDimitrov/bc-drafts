@@ -7,19 +7,21 @@ const TopNav = () => {
 	const router = useRouter();
 
 	return (
-		<ul className='w-full h-16 px-8 flex items-center bg-white shadow-inner z-50'>
-			{topNavLinks.map((el, index) => {
-				return (
-					<TopNavBtn
-						key={index}
-						title={el.title}
-						bgColor={router.pathname == el.href ? 'bg-gray-200' : ''}
-						fontWeight={router.pathname == el.href ? 'font-medium' : 'font-light'}
-						href={el.href}
-					/>
-				);
-			})}
-		</ul>
+		<div className='w-full h-16 px-8 flex items-center bg-white shadow-inner z-50'>
+			<ul className='flex'>
+				{topNavLinks.map((el, index) => {
+					return (
+						<TopNavBtn
+							key={index}
+							title={el.title}
+							bgColor={router.pathname == el.href ? 'bg-gray-200' : ''}
+							fontWeight={router.pathname == el.href ? 'font-medium' : 'font-light'}
+							href={el.href}
+						/>
+					);
+				})}
+			</ul>
+		</div>
 	);
 };
 
