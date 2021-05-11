@@ -1,7 +1,6 @@
-import Link from 'next/link';
 import { useRouter } from 'next/router';
-import TopNavBtn from '../../components/TopNavBtn';
-import { topNavLinks } from '../../utils/nav/topNavLinks';
+import TopNavBtn from '../../TopNavBtn';
+import { topNavLinks } from '../../../utils/nav/topNavLinks';
 
 const TopNav = () => {
 	const router = useRouter();

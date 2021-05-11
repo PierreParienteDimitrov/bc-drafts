@@ -1,4 +1,4 @@
-import SiteLayout from '../layouts/SiteLayout';
+import SiteLayout from '../components/layouts/SiteLayout';
 import '../styles/globals.css';
 
 function MyApp({ Component, pageProps }) {
