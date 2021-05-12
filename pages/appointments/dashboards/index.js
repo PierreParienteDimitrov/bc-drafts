@@ -1,10 +1,11 @@
 import SidebarLayout from '../../../components/layouts/SidebarLayout';
 import SiteLayout from '../../../components/layouts/SiteLayout';
+import Dasboard from '../../../components/Tables/Dashboard';
 
 const Dashboards = () => {
 	return (
 		<div>
-			<p>This is the dasboard</p>
+			<Dasboard />
 		</div>
 	);
 };
